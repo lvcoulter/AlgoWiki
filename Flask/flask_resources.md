@@ -1,7 +1,7 @@
 Flask
 =============
 
-# Index
+## Index
 + [Resources](#resources)
   - [Tutorial](#tutorial)
   - [Books](#books)
@@ -22,8 +22,7 @@ Flask
   + [](#)
   + [](#)
 
-Resources
----------
+### Resources
 
 - Tutorial
     - [How to build a news app that never goes down and costs you practically nothing](http://blog.apps.npr.org/2013/02/14/app-template-redux.html)(by NPR)
@@ -64,8 +63,7 @@ Resources
     - [Flask by Example](http://pyvideo.org/video/2608/flask-by-example)
     - [Writing RESTful web services with Flask](http://pyvideo.org/video/2668/writing-restful-web-services-with-flask)
 
-Plugins
--------
+### Plugins
 
 - Framework
     - [Flask Kit](https://github.com/semirook/flask-kit) - Flexible microkit for Flask microframework
