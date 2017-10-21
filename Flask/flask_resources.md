@@ -15,12 +15,20 @@ Flask
   - [Database/ORM/ODM](#database/ORM/ODM)
   - [Database Migrations](#database-migrations)
   - [Session](#session)
-  
-  + [](#)
-  + [](#)
-  + [](#)
-  + [](#)
-  + [](#)
+  - [Data Validation](#data-validation)
+  - [Email](#email)
+  - [Full-text searching](#full-text-searching)
+  - [Cache](#cache)
+  - [Rate Limiting](#rate-limiting)
+  - [Queue](#queue)
+  - [OAuth Client/Provider](#oath-client/providor)
+  - [Payment](#payment)
+  - [Exception Tracking](#exception-tracking)
+  - [Metrics Tracking](#metrics-tracking)
+  - [Other SDK](#other-sdk)
+  - [Frontend](#frontend)
+  - [Development](#development)
+  - [Utils](#utils)
 
 ### Resources
 
@@ -129,13 +137,13 @@ Flask
     - [flask-heroku-cacheify](https://github.com/rdegges/flask-heroku-cacheify) - Automatic Flask cache configuration on Heroku
     - [Flask-Volatile](https://github.com/StyleShare/flask-volatile) - a full-featured and integrated caching extension for Flask
     - [Flask-Dogpile-Cache](https://bitbucket.org/ponomar/flask-dogpile-cache) - Flask wrapper for dogpile.cache
-    - [Flask-SQLAlchemy-Cache](https://github.com/iurisilvio/Flask-SQLAlchemy-Cache) - A CachingQuery implementation to Flask using Flask-SQLAlchemy and Flask-Cache
+    - [Flask-SQLAlchemy-Cache](https://github.com/iurisilvio/Flask-SQLAlchemy-Cache) - A Caching Query implementation to Flask using Flask-SQLAlchemy and Flask-Cache
 - Rate Limiting
     - [Flask-Limiter](https://github.com/alisaifee/flask-limiter) - Flask-Limiter provides rate limiting features to flask routes
 - Queue
     - [Flask-RQ](https://github.com/mattupstate/flask-rq) - RQ (Redis Queue) integration for Flask applications
     - [celery](https://github.com/celery/celery/) - Distributed Task Queue
-- OAuth client/provider
+- OAuth Client/Provider
     - [Authomatic](https://github.com/peterhudec/authomatic) - Authomatic provides out of the box support for a number of providers using OAuth 1.0a (Twitter, Tumblr and more) and OAuth 2.0 (Facebook, Foursquare, GitHub, Google, LinkedIn, PayPal and more)
     - [Flask-GoogleLogin](https://github.com/insynchq/flask-googlelogin) - Flask-GoogleLogin extends Flask-Login to use Google's OAuth2 authorization
     - [flask-googlefed](https://github.com/kennethreitz/flask-googlefed) - Google Federated Logins for Flask
@@ -151,7 +159,7 @@ Flask
     - [alipay_python](https://github.com/fengli/alipay_python) - not a flask plugin now but you can integrate easily
     - [flask-paypal](https://github.com/jdiez17/flask-paypal) - PayPal integration example with Flask
     - [Flask-WePay](https://github.com/maxcountryman/flask-wepay) - A Flask wrapper for WePay's Python API
-- Exception tracking
+- Exception Tracking
     - [Flask-Exceptional](https://github.com/jzempel/flask-exceptional) - [Exceptional](http://www.exceptional.io/) extension for Flask
     - [Raven](https://github.com/getsentry/raven-python) - Raven is a Python client for [Sentry](http://www.getsentry.com/).
 - Metrics Tracking
